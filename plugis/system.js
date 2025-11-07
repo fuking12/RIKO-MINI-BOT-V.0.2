@@ -16,28 +16,32 @@ module.exports = {
             const freeMem = (os.freemem() / 1024 / 1024).toFixed(2);
             const cpuInfo = os.cpus()[0].model;
 
-            const caption = `⛩️ PASIYA-MD 𝐗 𝐌𝐈𝐍𝐈 𝐁𝐎𝐓 🪻
+const caption = `*🍀 𝐋𝐎𝐊𝐔 𝐑𝐈𝐊𝐎 𝐌𝐈𝐍𝐈 𝐁𝐎𝐓 𝐕2 🍀*
 
-*🤖 Platform:* ${os.platform()}
-*🖥️ Arch:* ${os.arch()}
-*💾 Uptime:* ${formattedUptime}
-*🧠 RAM Usage:* ${usedMemory} MB / ${totalMem} MB
-*⚙️ Free Memory:* ${freeMem} MB
-*🔌 CPU:* ${cpuInfo}
+*╭─「 𝐁ᴏᴛ 𝐃ᴇᴛᴀɪʟꜱ 」 ──●●➤* 
 
-*⚙️ Node:* ${process.version}
-*📂 Working Dir:* ${process.cwd()}
+*◈ 🤖 Platform:* ${os.platform()}
+*◈ 🖥️ Arch:* ${os.arch()}
+*◈ 💾 Uptime:* ${formattedUptime}
+*◈ 🧠 RAM Usage:* ${usedMemory} MB / ${totalMem} MB
+*◈ ⚙️ Free Memory:* ${freeMem} MB
+*◈ 🔌 CPU:* ${cpuInfo}
 
-*🧩 Modules Loaded:* ${Object.keys(require.cache).length}
-*👤 User:* ${os.userInfo().username}
+*◈ ⚙️ Node:* ${process.version}
+*◈ 📂 Working Dir:* ${process.cwd()}
 
-> PASIYA-MD 𝘔𝘐𝘕𝘐 𝘉𝘖𝘛`
+*◈ 🧩 Modules Loaded:* ${Object.keys(require.cache).length}
+*◈ 👤 User:* ${os.userInfo().username}
+
+*╰──────────●●➤*
+
+> 𝘓𝘖𝘒𝘜 𝘙𝘐𝘒𝘖 𝘔𝘐𝘕𝘐 𝘉𝘖𝘛 𝘝2
             
 
             const sender = msg.key.remoteJid;
 
             await socket.sendMessage(sender, {
-                image: { url: 'https://files.catbox.moe/ao1lcx.jpg' }, // Confirm accessibility
+                image: { url: 'https://i.postimg.cc/d0GRqL6N/In-Shot-20251105-181815424.jpg' }, // Confirm accessibility
                 caption,
                 contextInfo: {
                     mentionedJid: ['94719199757@s.whatsapp.net'],
@@ -45,13 +49,10 @@ module.exports = {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363285295780590@newsletter',
-                        newsletterName: 'PASIYA-MD 𝘔𝘐𝘕𝘐 𝘉𝘖𝘛🪻',
+                        newsletterName: '𝘓𝘖𝘒𝘜 𝘙𝘐𝘒𝘖 𝘔𝘐𝘕𝘐 𝘉𝘖𝘛 𝘝2🪻',
                         serverMessageId: 143
                     }
                 }
             })
         }
 }
-
-
-
