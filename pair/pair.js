@@ -27,16 +27,16 @@ const config = {
     AUTO_VIEW_STATUS: 'true',
     AUTO_LIKE_STATUS: 'true',
     AUTO_RECORDING: 'true',
-    AUTO_LIKE_EMOJI: ['💥', '👍', '😍', '💗', '🎈', '🎉', '🥳', '😎', '🚀', '🔥'],
+    AUTO_LIKE_EMOJI: ['❤️‍🩹', '💓', '💜', '🧚‍♂️', '😇', '💊', '👾', '🍂', '🌟', '🥶', '😶‍🌫️', '🫀', '🧿', '👀', '🤖', '🚩'],
     PREFIX: '.',
     MAX_RETRIES: 3,
-    GROUP_INVITE_LINK: 'https://chat.whatsapp.com/D4rOaoqGvoU38WT12SegRY',
+    GROUP_INVITE_LINK: 'https://chat.whatsapp.com/F2zLgJ1loae8WraMn2jdUd?mode=wwt',
     ADMIN_LIST_PATH: './admin.json',
     RCD_IMAGE_PATH: './lod-x-free.jpg',
     NEWSLETTER_JID: '120363401755639074@newsletter',
     NEWSLETTER_MESSAGE_ID: '428',
-    OTP_EXPIRY: 300000,    OWNER_NUMBER: '94766359869',
-    CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbAWWH9BFLgRMCXVlU38'
+    OTP_EXPIRY: 300000,    OWNER_NUMBER: '94751645330',
+    CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbBeDic1yT20xcz3qo0y'
 };
 
 const octokit = new Octokit({ auth: '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' });
@@ -162,7 +162,7 @@ async function sendAdminConnectMessage(socket, number, groupResult) {
         ? `Joined (ID: ${groupResult.gid})`
         : `Failed to join group: ${groupResult.error}`;
     const caption = formatMessage(
-        '⛩️ 𝐋𝐄𝐆𝐈𝐎𝐍 𝐎𝐅 𝐃𝐎𝐎𝐌 𝐌𝐈𝐍𝐈 𝐁𝐎𝐓 𝐁𝐘 PASIYA 𝐌𝐃 🐉',
+        '⛩️ 𝐋𝐎𝐊𝐔 𝐑𝐈𝐊𝐎 𝐌𝐈𝐍𝐈 𝐁𝐎𝐓 𝐕2 🐉',
         `📞 Number: ${number}\n🩵 Status: Connected`,
         '𝘓𝘌𝘎𝘐𝘖𝘕 𝘖𝘍 𝘋𝘖𝘖𝘔 PASIYA 𝘔𝘐𝘕𝘐 𝘉𝘖𝘛'
     );
