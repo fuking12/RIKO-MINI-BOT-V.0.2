@@ -21,7 +21,7 @@ const {
     proto,
     prepareWAMessageMedia,
     generateWAMessageFromContent
-} = require('baileys');
+} = require('@dark-yasiya/baileys');
 
 const config = {
     AUTO_VIEW_STATUS: 'true',
