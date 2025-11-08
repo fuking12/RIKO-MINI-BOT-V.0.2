@@ -10,7 +10,7 @@ const getContextInfo = (m) => {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
             newsletterJid: '120363400575205721@newsletter',
-            newsletterName: 'loku riko mini bo v2 niws',
+            newsletterName: 'loku riko mini bot v2 niws',
             serverMessageId: 143,
         },
     };
