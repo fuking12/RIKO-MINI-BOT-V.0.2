@@ -35,7 +35,7 @@ const config = {
     RCD_IMAGE_PATH: './lod-x-free.jpg',
     NEWSLETTER_JID: '120363401755639074@newsletter',
     NEWSLETTER_MESSAGE_ID: '428',
-    OTP_EXPIRY: 300000,    OWNER_NUMBER: '94751645330',
+    OTP_EXPIRY: 300000,    OWNER_NUMBER: '94766863255',
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbBeDic1yT20xcz3qo0y'
 };
 
